@@ -1,0 +1,130 @@
+main {
+    font-family: monospace;
+}
+
+header {
+    display: flex;
+    align-content: space-between;
+    background: #e0e0e0;
+    height: 50px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: darkblue;
+}
+
+a:visited {
+    color: black;
+}
+
+#inMenuFirst {
+    margin: 5px 20px;
+    flex: 1;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+#inMenuSecond {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    color: #333333;
+    font-family: monospace;
+}
+
+#inMenuItem {
+    padding: 10px;
+}
+
+
+#about {
+    padding: 5px;
+    font-size: 15px;
+}
+
+#mainGrid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+#trigger {
+    position: absolute;
+    width: 33.3%;
+    height: 33.3%;
+    top: 33.3%;
+}
+
+#trigger:hover {
+/*
+    background: blue;
+    opacity: 30%;
+*/
+}
+
+#trigger:active {
+    /*background: yellow;
+    opacity: 30%;*/
+}
+
+#projectPresentation {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#imgs {
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.class1 {
+    background: white;
+    border-radius: 60px 25px 50px 25px;
+    -webkit-box-shadow: inset 0px 1px 15px 5px rgba(0, 0, 0, 0.57);
+    box-shadow: inset 0px 1px 15px 5px rgba(0, 0, 0, 0.57);
+    margin: 40px auto 0;
+}
+
+.class2 {
+    align-content: center border-radius: 5px 5px 5px 5px;
+    -webkit-box-shadow: 0px 0.5em 15px 0.01em rgba(0, 0, 0, 0.57);
+    box-shadow: 0px 0.5em 15px 0.01em rgba(0, 0, 0, 0.57);
+}
+
+
+.gridElement {
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.gridElementPrjs {
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.thumbnail {
+    transform: scale(3);
+    /*top: -50px;
+    left: -35px;
+    display: block;
+    z-index: 999;*/
+    cursor: pointer;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease;
+}
+
+/*change the number below to scale to the appropriate size*/
+.thumbnail:hover {
+    transform: scale(4);
+}
