@@ -49,6 +49,7 @@ a:visited {
     display: flex;
     flex-wrap: wrap;
     padding: 30px;
+    background-color: rgb(235, 152, 153);
 }
 
 #trigger {
@@ -90,7 +91,8 @@ a:visited {
 }
 
 .class2 {
-    align-content: center border-radius: 5px 5px 5px 5px;
+    align-content: center;
+    border-radius: 5px 5px 5px 5px;
     -webkit-box-shadow: 0px 0.5em 15px 0.01em rgba(0, 0, 0, 0.57);
     box-shadow: 0px 0.5em 15px 0.01em rgba(0, 0, 0, 0.57);
 }
