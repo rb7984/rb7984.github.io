@@ -4,7 +4,7 @@ main {
 
 body{
     animation-name: bodyAnimation;
-    animation-duration: 10s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
 }
 
@@ -65,22 +65,21 @@ a:visited {
     background-color: rgb(235, 152, 153);
 }
 
+#imgs {
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
 #trigger {
     position: absolute;
-    width: 33.3%;
-    height: 33.3%;
-    top: 33.3%;
+    width: 20%;
+    /* height: 20%; */
 }
 
 #projectPresentation {
     display: flex;
     flex-wrap: wrap;
-}
-
-#imgs {
-    height: auto;
-    max-height: 100%;
-    max-width: 100%;
 }
 
 .class1 {
@@ -102,6 +101,7 @@ a:visited {
     width: 33.3%;
     display: flex;
     justify-content: center;
+    align-items: center;
     position: relative;
 }
 
