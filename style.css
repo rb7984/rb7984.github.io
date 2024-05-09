@@ -1,0 +1,63 @@
+.background {
+  background-color: black;  
+}
+
+.text {
+  color: aquamarine;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1em;
+}
+
+.collapsible-btn {
+  color: aquamarine;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: none;
+  text-align: left;
+  outline: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid aquamarine;
+  transform: rotate(-90deg);
+  transition: transform;
+}
+
+.arrow-text {
+  margin-left: 10px;
+  font-size: 1.4em;
+}
+
+input[type="checkbox"]:checked + .collapsible-btn .arrow {
+  transform: rotate(0deg);
+}
+
+.content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked ~ .content {
+  max-height: none;
+}
+
+.titles{
+  font-size: 1.2em;
+}
+
+.p{
+  color: rgb(201, 255, 237);
+}
