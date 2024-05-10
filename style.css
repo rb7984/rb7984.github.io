@@ -41,7 +41,7 @@ input[type="checkbox"]:checked + .collapsible-btn .arrow {
 }
 
 .content {
-  max-height: 0;
+  max-height: none;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
@@ -59,7 +59,7 @@ input[type="checkbox"]:checked ~ .content {
 }
 
 .p{
-  color: rgb(201, 255, 237);
+  color: rgb(243, 255, 251);
 }
 
 .image-container {
@@ -72,7 +72,7 @@ input[type="checkbox"]:checked ~ .content {
   border-radius: 50%;
   overflow: hidden;
   margin-right: 10px;
-  border: 2px solid white;
+  border: 2px solid rgb(169, 255, 241);
 }
 
 .circular-frame img {
