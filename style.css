@@ -61,3 +61,22 @@ input[type="checkbox"]:checked ~ .content {
 .p{
   color: rgb(201, 255, 237);
 }
+
+.image-container {
+  display: flex;
+}
+
+.circular-frame {
+  width: 10vw; /* 10% of viewport width */
+  height: 10vw; /* 10% of viewport width */
+  border-radius: 50%; /* Make it circular */
+  overflow: hidden; /* Clip the image to the circular frame */
+  margin-right: 10px; /* Adjust spacing between frames */
+  border: 2px solid white; /* Add a white stroke */
+}
+
+.circular-frame img {
+  width: 100%; /* Make the image fill the circular frame */
+  height: 100%; /* Make the image fill the circular frame */
+  object-fit: cover; /* Maintain aspect ratio and fill the frame */
+}
