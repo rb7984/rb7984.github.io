@@ -81,6 +81,12 @@ input[type="checkbox"]:checked ~ .content {
   overflow: hidden;
   margin-right: 10px;
   border: 2px solid rgb(169, 255, 241);
+  transition: 0.3s;
+}
+
+.circular-frame:hover {
+  border: 2px solid rgb(255, 111, 219);
+  transition: 0.3s;
 }
 
 .circular-frame img {
