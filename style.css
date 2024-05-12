@@ -106,13 +106,12 @@ input[type="checkbox"]:checked ~ .content {
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: black; /* Ensure the footer's background covers the whole width */
+  background-color: black;
   padding: 20px;
-  z-index: 1; /* Ensure the footer stays on top */
+  z-index: 1;
 }
 
 /* Modal */
-
 .modal {
   display: none;
   position: fixed;
@@ -149,6 +148,7 @@ input[type="checkbox"]:checked ~ .content {
   display: block;
   width: 80%;
   max-width: 700px;
+  padding: 2px;
 }
 
 .modal-content, #caption {
