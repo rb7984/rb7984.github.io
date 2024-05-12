@@ -175,5 +175,5 @@ input[type="checkbox"]:checked ~ .content {
   transform: translateX(-50%);
   color: white;
   font-size: 16px;
-  z-index: 3;
+  z-index: 1;
 }
