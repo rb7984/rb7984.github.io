@@ -167,3 +167,13 @@ input[type="checkbox"]:checked ~ .content {
   from {transform:scale(0)}
   to {transform:scale(1)}
 }
+
+.comment {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 16px;
+  z-index: 3;
+}
