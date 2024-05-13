@@ -74,6 +74,7 @@ input[type="checkbox"]:checked ~ .content {
 
 .image-container {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .circular-frame {
@@ -81,7 +82,7 @@ input[type="checkbox"]:checked ~ .content {
   height: 10vmax;
   border-radius: 50%;
   overflow: hidden;
-  margin-right: 10px;
+  margin: 5px;
   border: 2px solid rgb(169, 255, 241);
   transition: 0.3s;
 }
