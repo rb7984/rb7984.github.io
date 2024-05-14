@@ -70,6 +70,7 @@ input[type="checkbox"]:checked ~ .content {
 
 .p{
   color: rgb(243, 255, 251);
+  text-align: justify;
 }
 
 .image-container {
@@ -84,12 +85,12 @@ input[type="checkbox"]:checked ~ .content {
   overflow: hidden;
   margin: 5px;
   border: 2px solid rgb(169, 255, 241);
-  transition: 0.3s;
+  transition: 0.7s;
 }
 
 .circular-frame:hover {
-  border: 2px solid rgb(255, 111, 219);
-  transition: 0.3s;
+  border: 2px solid rgb(255, 11, 194);
+  transition: 0.7s;
 }
 
 .circular-frame img {
